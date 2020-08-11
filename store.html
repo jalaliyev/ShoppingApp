@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Generics | Store</title>
+    <meta name="description" content="This is the description" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="store.js" async></script>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">The Generics</h1>
+    </header>
+
+    <!-- <div class="billionaires">
+      <button class="billionaire" value="185800000000" src="Images/JeffBezos.jpg">Jeff Bezos</button>
+      <button class="billionaire" value="113100000000" src="Images/billgates.jpg">Bill Gates</button>
+    </div>  -->
+
+    <div class="customer-content">
+      <span class="customer-name">Bill Gates</span>
+      <img src="Images/billgates.jpg" alt="" class="customer-image">
+    </div>
+
+    <div class="customer-budget"><span>$110000000000</span></div>
+    
+    <!--<div class="customer-content">
+      <span class="customer-name"></span>
+      <img src="" alt="" class="customer-image">
+    </div>
+    <div class="customer-budget"><span>$</span></div>  -->
+
+    <section class="container content-section">
+      <h2 class="section-header">The Cheap Products</h2>
+      <div class="shop-items">
+
+        <div class="shop-item">
+          <span class="shop-item-title">Big Mac</span>
+          <img class="shop-item-image" src="Images/big-mac.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$2.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+      <div class="shop-item">
+        <span class="shop-item-title">Flip Flops</span>
+        <img class="shop-item-image" src="Images/flip-flops.jpg" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$3.95</span>
+          <button class="btn btn-primary shop-item-button" type="button">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+
+      <div class="shop-item">
+        <span class="shop-item-title">Coca-Cola Pack</span>
+        <img class="shop-item-image" src="Images/coca-cola-pack.jpg" />
+        <div class="shop-item-details">
+          <span class="shop-item-price">$4.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+
+      <div class="shop-item">
+          <span class="shop-item-title">Book</span>
+          <img class="shop-item-image" src="Images/book.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$15</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Lobster Dinner</span>
+          <img class="shop-item-image" src="Images/lobster-dinner.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$45</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        
+        <div class="shop-item">
+          <span class="shop-item-title">Video Game</span>
+          <img class="shop-item-image" src="Images/video-game.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$68.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Amazon Echo</span>
+          <img class="shop-item-image" src="Images/amazon-echo.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$99.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Air Jordans</span>
+          <img class="shop-item-image" src="Images/air-jordans.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$129.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Gaming Console</span>
+          <img class="shop-item-image" src="Images/gaming-console.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$299.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Bike</span>
+          <img class="shop-item-image" src="Images/bike.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$800</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Kitten</span>
+          <img class="shop-item-image" src="Images/kitten.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$900</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">T-Shirt</span>
+          <img class="shop-item-image" src="Images/Shirt.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Smartphone</span>
+          <img class="shop-item-image" src="Images/smartphone.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$1899.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Horse</span>
+          <img class="shop-item-image" src="Images/horse.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$2499.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Acre of Farmland</span>
+          <img class="shop-item-image" src="Images/acre-of-farmland.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$2999.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">Expensive Products</h2>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Designer Handbag</span>
+          <img class="shop-item-image" src="Images/designer-handbag.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$4557.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Hot Tub</span>
+          <img class="shop-item-image" src="Images/hot-tub.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$6000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Diamond Ring</span>
+          <img class="shop-item-image" src="Images/diamond-ring.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$10000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Jet Ski</span>
+          <img class="shop-item-image" src="Images/jet-ski.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12500</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Rolex</span>
+          <img class="shop-item-image" src="Images/rolex.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$1599.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Ford F-150</span>
+          <img class="shop-item-image" src="Images/ford-f-150.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$30000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Tesla</span>
+          <img class="shop-item-image" src="Images/tesla.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$75000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Monster Truck</span>
+          <img class="shop-item-image" src="Images/monster-truck.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$150000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Ferrari</span>
+          <img class="shop-item-image" src="Images/ferrari.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$150000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Single Family Home</span>
+          <img class="shop-item-image" src="Images/single-family-home.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$300000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Gold Bar</span>
+          <img class="shop-item-image" src="Images/gold-bar.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$700000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">McDonald's Franchise</span>
+          <img class="shop-item-image" src="Images/mcdonalds-franchise.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$1500000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Superbowl Ad</span>
+          <img class="shop-item-image" src="Images/superbowl-ad.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$5250000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Yacht</span>
+          <img class="shop-item-image" src="Images/yacht.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$7500000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">M1 Abrams</span>
+          <img class="shop-item-image" src="Images/m1-abrams.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$8000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Formula 1 Car</span>
+          <img class="shop-item-image" src="Images/formula-1-car.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$15000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Apache Helicopter</span>
+          <img class="shop-item-image" src="Images/apache-helicopter.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$31000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+  
+        <div class="shop-item">
+          <span class="shop-item-title">Mansion</span>
+          <img class="shop-item-image" src="Images/mansion.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$45000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+  
+        <div class="shop-item">
+          <span class="shop-item-title">Make a Movie</span>
+          <img class="shop-item-image" src="Images/make-a-movie.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$100000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <div class="shop-item">
+          <span class="shop-item-title">Boeing 747</span>
+          <img class="shop-item-image" src="Images/boeing-747.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$148000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+  
+        <div class="shop-item">
+          <span class="shop-item-title">Mona Lisa</span>
+          <img class="shop-item-image" src="Images/mona-lisa.jpg" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$780000000</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+    
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer-container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <img src="Images/YouTube Logo.png" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="Images/Facebook Logo.png" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
